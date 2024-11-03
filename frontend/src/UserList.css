@@ -1,0 +1,37 @@
+.star {
+    font-size: 44px; /* Tamanho da estrela */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    color: gray; /* Cor padrão da estrela */
+    transition: color 0.3s; /* Transição suave para a mudança de cor */
+    margin-top: -25px;
+    margin-bottom: 8px;
+}
+
+.star.active {
+    color: gold; /* Cor da estrela quando ativa */
+}
+
+.user-item {
+    display: flex; /* Exibe os itens em uma linha */
+    align-items: center; /* Centraliza verticalmente os itens */
+    margin-bottom: 10px; /* Espaçamento entre os itens da lista */
+}
+
+#github-link {
+    margin-left: 0px; /* Espaço entre a estrela e o link */
+    padding: 5px 10px; /* Espaçamento interno do botão */
+    background-color: #080054; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    border: none; /* Remove bordas */
+    border-radius: 4px; /* Bordas arredondadas */
+    text-decoration: none; /* Remove sublinhado */
+    display: inline-block; /* Faz o link se comportar como um bloco */
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+    margin-bottom: 15px;
+    margin-top: -30px;
+}
+
+#github-link:hover {
+    background-color: #0056b3; /* Cor do botão ao passar o mouse */
+    text-decoration: none; /* Garante que não tenha sublinhado ao passar o mouse */
+}
